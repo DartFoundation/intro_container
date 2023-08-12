@@ -14,9 +14,14 @@ void main() {
   );
 
   runApp(Container(
+    margin: EdgeInsets.all(30),
     decoration: BoxDecoration(
       color: Colors.blueAccent,
-      border: Border.all(width: 20),
+      borderRadius: BorderRadius.circular(20),
+      border: Border.all(
+        color: Colors.redAccent,
+        width: 20,
+      ),
     ),
   ));
 }
