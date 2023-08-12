@@ -17,10 +17,24 @@ void main() {
     margin: EdgeInsets.all(30),
     decoration: BoxDecoration(
       color: Colors.blueAccent,
-      borderRadius: BorderRadius.circular(20),
-      border: Border.all(
-        color: Colors.redAccent,
-        width: 20,
+      borderRadius: BorderRadius.circular(10),
+      border: Border(
+        bottom: BorderSide(
+          color: Colors.black,
+          width: 25,
+        ),
+        top: BorderSide(
+          color: Colors.black,
+          width: 25,
+        ),
+        left: BorderSide(
+          color: Colors.black,
+          width: 25,
+        ),
+        right: BorderSide(
+          color: Colors.black,
+          width: 25,
+        ),
       ),
     ),
   ));
